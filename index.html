@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Solid State by HTML5 UP</title>
+		<title>Internet Infrastructure</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
+						<h1><a href="index.html">Internet Infrastructure</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -31,10 +31,11 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="cables.html">Cables</a></li>
+								<li><a href="cabinets.html">Cabinets</a></li>
+								<li><a href="plinths.html">Plinths</a></li>
+								<li><a href="poles.html">Poles</a></li>
+								<li><a href="manholes.html">Manholes</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -44,8 +45,8 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>This is Solid State</h2>
-							<p>Another free + fully responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+							<h2>Internet Infrastructure</h2>
+							<p>An explanation and some examples of how internet infrastructure works.</a></p>
 						</div>
 					</section>
 
@@ -55,11 +56,14 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<a href="#" class="image"><img src="images/cables/mapsimage at 9.34.42 PM.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Magna arcu feugiat</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Cables in Wellington</h2>
+										<p>Internet connectivity is primarily facilitated through a network of cables that span vast distances both underground 
+											and above ground. These cables carry data in the form of electrical signals or light pulses. Fiber-optic cables are 
+											increasingly used for their high-speed data transmission capabilities. These cables are often bundled together and 
+											laid out across cities and regions, forming the backbone of the internet infrastructure.</p>
+										<a href="/cables.html" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
@@ -130,9 +134,9 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
+							<h2 class="major">Want to discuss this further?</h2>
+							<p>This information is kept private under the privacy act. We will not share your information or anything that you discuss, unless intended to. Thank you for getting in touch.</p>
+							<form method="post" action="process.php">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -151,20 +155,31 @@
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
 							</form>
+							<!-- Thank You message will be displayed here -->
+							<div id="thank_you" style="display: none;">
+								<p>Thanks for filling up the form!</p>
+								<button type="button" id="backButton">Back</button>
+							</div>
+
+							<script>
+								// JavaScript to handle button click
+								document.getElementById("backButton").addEventListener("click", function() {
+									window.location.href = "index.html";
+								});
+							</script>
 							<ul class="contact">
 								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
+									Victoria University of Wellington<br />
+									New Zealand<br />
+									Kelburn, Wellington 6012
 								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+								<li class="icon solid fa-phone">04 472 1000</li>
+								<li class="icon solid fa-envelope"><a href="mailto:info@vuw.ac.nz">info@vuw.ac.nz</a></li>
+								<li class="icon brands fa-instagram"><a href="https://www.instagram.com/arimulligan" target="_blank"><instagram class="com">
+								<arimulligan>Site Owners Personal Instagram</arimulligan></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Internet Infrastructure Inc. All rights reserved.</li><li>Initial Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
