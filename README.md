@@ -1,6 +1,6 @@
 ***Internet Infrastructure HTML5 Website***
 
-This README provides an overview and guide for the Internet Infrastructure HTML5 Website. This website serves as a valuable resource for understanding and learning about the fundamental components and concepts that make up the backbone of the internet. Whether you are a student, developer, or simply curious about how the internet works, this website aims to provide you with comprehensive information.
+This website serves as a valuable resource for understanding and learning about the fundamental components and concepts that make up the backbone of the internet. Whether you are a student, developer, or simply curious about how the internet works, this website aims to provide you with comprehensive information.
 
 Interactive Visualizations: The website includes interactive visualizations and diagrams to help users understand complex internet infrastructure concepts more easily.
 
